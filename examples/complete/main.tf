@@ -1,7 +1,5 @@
-module "aci_scaffolding" {
-  source = "netascode/scaffolding/aci"
+module "aci_access_spine_interface_profile" {
+  source = "netascode/access-spine-interface-profile/aci"
 
-  name        = "ABC"
-  alias       = "ABC-ALIAS"
-  description = "My Description"
+  name = "SPINE1001"
 }

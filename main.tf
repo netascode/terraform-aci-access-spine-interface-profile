@@ -1,9 +1,7 @@
-resource "aci_rest" "fvTenant" {
-  dn         = "uni/tn-${var.name}"
-  class_name = "fvTenant"
+resource "aci_rest" "infraSpAccPortP" {
+  dn         = "uni/infra/spaccportprof-${var.name}"
+  class_name = "infraSpAccPortP"
   content = {
-    name      = var.name
-    nameAlias = var.alias
-    descr     = var.description
+    name = var.name
   }
 }
