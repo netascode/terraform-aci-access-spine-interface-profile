@@ -1,5 +1,5 @@
 variable "name" {
-  description = "Spine interface profile name"
+  description = "Spine interface profile name."
   type        = string
 
   validation {
