@@ -1,4 +1,4 @@
-resource "aci_rest" "infraSpAccPortP" {
+resource "aci_rest_managed" "infraSpAccPortP" {
   dn         = "uni/infra/spaccportprof-${var.name}"
   class_name = "infraSpAccPortP"
   content = {
